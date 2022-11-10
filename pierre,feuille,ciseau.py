@@ -1,7 +1,7 @@
 #DEBUT
 #On admet une fonction random qui retourne un chiffre aléatoire entre 0 et 2
 #On admet une fonction input qui recupere le saisi d'un joueur lors de son execution
-#On définit une fonction PierreFeuilleCiseau qui prend en argument nombrePartiePourGagner(le nombre de round pour gagner la partie)(!!! un nombre impair !!!)
+#On définit une fonction PierreFeuilleCiseau qui prend en argument nombrePartiePourGagner(le nombre de round pour gagner la partie)
     #On initialise la variable scoreOrdinateur à 0
     #On initialise la variable scoreJoueur à 0
     #Tant que scoreOrdinateur OU scoreJoueur est différent de nombrePartiePourGagner
@@ -33,4 +33,5 @@
         #Alors on afficher un message de défaite
     #Sinon
         #Alors on affiche un message de victoire
+#On execute la fonction PierreFeuilleCiseau avec un entier choisi en input par le joueur
 #FIN
